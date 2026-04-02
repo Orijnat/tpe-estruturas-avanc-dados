@@ -3,12 +3,12 @@
 
 #include "mapa.h"
 
-int altura (Mapa *m);
+int altura (No *m);
 
-void mostra (Mapa *m);
+void mostra (No *m);
 
-void percorre_inorder(Mapa* m, funcp f);
-void percorre_preorder(Mapa* m, funcp f);
-void percorre_posorder(Mapa* m, funcp f);
+void percorre_inorder(No* m, funcp f);
+void percorre_preorder(No* m, funcp f);
+void percorre_posorder(No* m, funcp f);
 
 #endif 
